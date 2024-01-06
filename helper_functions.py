@@ -80,6 +80,7 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
 # Make a function to predict on images and plot them (works with multi-class)
 def pred_and_plot(model, filename, class_names):
   
+  
   # Import the target image and preprocess it
   img = load_and_prep_image(filename)
 
